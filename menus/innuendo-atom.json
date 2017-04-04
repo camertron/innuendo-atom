@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle innuendo-atom",
+        "command": "innuendo-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "innuendo-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "innuendo-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "innuendo-atom",
+  "main": "./lib/innuendo-atom",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "innuendo-atom:toggle"
+  },
+  "repository": "https://github.com/atom/innuendo-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
