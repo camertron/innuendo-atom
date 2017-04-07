@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle innuendo-atom",
-        "command": "innuendo-atom:toggle"
+        "label": "Show identifiers",
+        "command": "innuendo-atom:show-identifiers"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "innuendo-atom",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "innuendo-atom:toggle"
+              "label": "Show Identifiers",
+              "command": "innuendo-atom:show-identifiers"
             }
           ]
         }
