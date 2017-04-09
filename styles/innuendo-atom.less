@@ -4,8 +4,13 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.innuendo {
-  .identifier {
-    border-bottom: 1px solid #F00;
+atom-text-editor {
+  .innuendo.identifier {
+    .region {
+      border-bottom: 1px dotted @background-color-info;
+      cursor: pointer;
+      pointer-events: auto;
+      z-index: 1;
+    }
   }
 }
