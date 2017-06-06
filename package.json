@@ -11,6 +11,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "jquery": "^3.2.1",
+    "arrive": "^2.4.1"
   }
 }

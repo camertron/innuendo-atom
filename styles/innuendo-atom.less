@@ -7,10 +7,13 @@
 atom-text-editor {
   .innuendo.identifier {
     .region {
-      border-bottom: 1px dotted @background-color-info;
-      cursor: pointer;
       pointer-events: auto;
       z-index: 1;
+
+      &:hover {
+        border-bottom: 1px dotted @background-color-info;
+        cursor: pointer;
+      }
     }
   }
 }
